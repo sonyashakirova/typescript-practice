@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Задание по модулю TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && npx tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}
